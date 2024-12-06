@@ -42,11 +42,11 @@ export default function Hero() {
                     <div className="flex flex-col sm:flex-row lg:flex-col items-start sm:items-center lg:items-start text-white">
                         <div className="flex items-center gap-2 text-[#00F2EA] mb-4 sm:mb-0 lg:mb-4">
                             <RiMapPin2Line className="text-3xl" />
-                            <p className="text-sm sm:text-base lg:text-sm">DGA at ESI Alger</p>
+                            <p className="text-sm sm:text-base lg:text-sm">S28 at ESI Alger</p>
                         </div>
                         <div className="flex items-center gap-2 text-[#FF0050]">
                             <LuCalendar className="text-3xl" />
-                            <p className="text-sm sm:text-base lg:text-sm">Afternoon 09/12/2024</p>
+                            <p className="text-sm sm:text-base lg:text-sm">Afternoon 10/12/2024</p>
                         </div>
                     </div>
 
