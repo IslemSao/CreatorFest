@@ -1,0 +1,18 @@
+[
+  {
+    "name": "Lanad Noureddine",
+    "description": "Lanad is a third-year medical student and a passionate medical and teaching content creator. With a deep understanding of both the medical field and the power of educational content, Lanad has successfully built a platform where he shares valuable knowledge. In his workshop, he will guide aspiring creators on how to start their own content creation journey, find their unique content niche, and connect with their target audience.",
+    "imagePath":"/images/lanad.jpg"
+  },
+  {
+    "name": "Wanis Hadj Mohammed",
+    "description": "Wanis is a second-year ENSIA student and a content creator focused on educational and life routine topics. Known for his practical advice and engaging style, Wanis has made a name for himself by sharing useful tips for everyday life. In his workshop, he will delve into the art of video editing and share his expertise in public speaking, equipping participants with the skills they need to create high-quality content and effectively communicate their message.",
+    "imagePath":"/images/wanis.jpg"
+  },
+  {
+    "name": "Zinou",
+    "description": "a passionate content creator with a deep expertise in photography and the audiovisual arts. His work blends creativity with technical mastery, capturing the world through his lens and creating stunning visuals. At CreatorFest, Zinou will be sharing his insights into the world of audiovisuals, offering valuable advice and tips for aspiring creators. Whether you're a beginner or an experienced creator, Zinou’s talk will inspire and provide actionable guidance to help elevate your content.",
+    "imagePath":"/images/zinou.jpg"
+  }
+
+]
