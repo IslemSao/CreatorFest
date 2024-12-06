@@ -12,9 +12,13 @@ function Navbar({}: Props) {
         setIsOpen(!isOpen);
     };
 
+    const closeMenu = () => {
+        setIsOpen(false);
+    };
+
     return (
-        <nav className='text-white fixed mt-28 w-full flex justify-center'> {/* Added flex and justify-center */}
-            <div className='rounded-2xl font-bold shadow-custom-spread bg-white backdrop-blur-md bg-opacity-10 px-6 lg:px-16 py-3 w-full lg:w-[900px]'> {/* Added w-full and lg:w-[900px] */}
+        <nav className='text-white fixed mt-36 w-full flex justify-center'>
+            <div className='rounded-2xl font-bold shadow-custom-spread bg-white backdrop-blur-md bg-opacity-10 px-6 lg:px-16 py-3 w-full lg:w-[900px]'>
                 {/* Desktop Menu */}
                 <div className='hidden lg:flex justify-between items-center gap-16'>
                     <Link href="#">Home</Link>
@@ -60,11 +64,41 @@ function Navbar({}: Props) {
                 {/* Mobile Menu Items */}
                 {isOpen && (
                     <div className='lg:hidden pt-4 pb-2 space-y-3'>
-                        <Link href="#about" className='block'>About</Link>
-                        <Link href="#about" className='block'>Agenda</Link>
-                        <Link href="#speakers" className='block'>Speakers</Link>
-                        <Link href="#FAQ" className='block'>FAQ</Link>
-                        <Link href="#contact" className='block'>Contact</Link>
+                        <Link
+                            href="#about"
+                            className='block'
+                            onClick={closeMenu}
+                        >
+                            About
+                        </Link>
+                        <Link
+                            href="#agenda"
+                            className='block'
+                            onClick={closeMenu}
+                        >
+                            Agenda
+                        </Link>
+                        <Link
+                            href="#speakers"
+                            className='block'
+                            onClick={closeMenu}
+                        >
+                            Speakers
+                        </Link>
+                        <Link
+                            href="#faq"
+                            className='block'
+                            onClick={closeMenu}
+                        >
+                            FAQ
+                        </Link>
+                        <Link
+                            href="#contact"
+                            className='block'
+                            onClick={closeMenu}
+                        >
+                            Contact
+                        </Link>
                     </div>
                 )}
             </div>
