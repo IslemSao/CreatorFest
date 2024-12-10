@@ -67,10 +67,12 @@ const AgendaItem: React.FC<AgendaItemProps> = ({ time, place, title, description
 
 export default function Agenda() {
     const agendaItems: AgendaItemProps[] = [
-        { time: "13:30-14:30", place: "S28", title: "Noureddine", description: " how to match ideas to attract your audience.", color: "#00F2EA" },
-        { time: "14:30-15:30", place: "S28", title: "Zinou", description: "Introduction to Audiovisual.", color: "#FF0050" },
-        { time: "15:30-15:45", place: "S28", title: "Coffee break", description: "Quick pose", color: "#00F2EA" },
-        { time: "15:45-16:45", place: "S28", title: "Wanis", description: "Editing workshop using CapCut + public speaking\n.", color: "#FF0050" },
+        { time: "13:20-13:30", place: "S28", title: "", description: "Opening ceremony.", color: "#00F2EA" },
+        { time: "13:30-14:00", place: "S28", title: "Zinou", description: "Introduction to Audiovisual.", color: "#FF0050" },
+        { time: "14:30-14:30", place: "S28", title: "Noureddine", description: " how to match ideas to attract your audience.", color: "#00F2EA" },
+        { time: "14:30-15:15", place: "S28", title: "Wanis", description: "Public speaking.", color: "#FF0050" },
+        { time: "15:15-15:30", place: "S28", title: "Coffee break", description: "Quick pose", color: "#00F2EA" },
+        { time: "15:30-16:15", place: "S28", title: "Wanis", description: "Editing workshop using CapCut.", color: "#FF0050" },
     ];
 
     return (
